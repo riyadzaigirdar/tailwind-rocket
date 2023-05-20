@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  scroll-behavior: smooth;
+.after\:text-9xl::after {
+  line-height: 0px !important;
 }

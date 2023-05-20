@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="sm:scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,43 +31,11 @@
       </section>
     </header>
 
-    <!-- <main class="mx-auto max-w-4xl">
-      <section
-        id="hero"
-        class="mb-10 flex flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row"
-      >
-        <article class="sm:w-1/2">
-          <h2
-            class="max-w-md text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-left sm:text-5xl"
-          >
-            We Boldly Go
-            <span class="text-indigo-700 dark:text-indigo-300"
-              >Where No Rocket </span
-            >Has Gone Before...
-          </h2>
-          <p
-            class="mt-4 max-w-md text-center text-2xl text-slate-700 dark:text-slate-400 sm:text-left"
-          >
-            We're building rockets for the next century today. From the moon to
-            mars, Jupiter and beyond.
-          </p>
-          <p
-            class="mt-4 max-w-md text-center text-2xl text-slate-700 dark:text-slate-400 sm:text-left"
-          >
-            Think Acme Rockets.
-          </p>
-        </article>
-        <img class="w-1/2" src="img/rocketdab.png" />
-      </section>
-
-      <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
-    </main> -->
-
     <main class="m-auto max-w-4xl">
       <!-- Intro Section -->
       <section
         id="hero"
-        class="mb-10 flex flex-col-reverse items-center justify-center gap-4 p-10 sm:flex-row"
+        class="mb-10 flex scroll-mt-20 flex-col-reverse items-center justify-center gap-4 p-10 sm:flex-row"
       >
         <article class="grid gap-4 text-center sm:text-start">
           <h1 class="text:4xl text-4xl font-bold sm:text-5xl">
@@ -99,7 +67,7 @@
 
         <ul class="flex max-w-4xl list-none flex-col gap-8 sm:flex-row">
           <li
-            class="flex flex-col items-center justify-center rounded-2xl border border-solid border-gray-100 p-4 shadow-xl hover:bg-slate-100 dark:bg-white"
+            class="flex flex-col items-center justify-center rounded-2xl border border-solid border-gray-100 p-4 shadow-xl hover:bg-slate-100 dark:border-slate-300 dark:shadow-none dark:hover:bg-slate-700"
           >
             <img
               class="mb-6 w-1/2"
@@ -107,7 +75,7 @@
               alt="Rocket Launch"
             />
 
-            <h1 class="text-3xl text-black dark:text-slate-900 sm:text-2xl">
+            <h1 class="text-3xl text-black dark:text-slate-300 sm:text-2xl">
               Rocket Launch
             </h1>
             <p class="text-1xl my-1 block text-slate-400 sm:hidden">
@@ -117,11 +85,11 @@
           </li>
 
           <li
-            class="flex flex-col items-center justify-center rounded-2xl border border-solid border-gray-100 p-4 shadow-xl hover:bg-slate-100 dark:bg-white"
+            class="flex flex-col items-center justify-center rounded-2xl border border-solid border-gray-100 p-4 shadow-xl hover:bg-slate-100 dark:border-slate-300 dark:shadow-none dark:hover:bg-slate-700"
           >
             <img class="mb-6 w-1/2" src="img/rocketman.png" alt="Rocket Man" />
 
-            <h1 class="text-3xl text-black dark:text-slate-900 sm:text-2xl">
+            <h1 class="text-3xl text-black dark:text-slate-300 sm:text-2xl">
               Rocket Man
             </h1>
             <p class="text-1xl my-1 block text-slate-400 sm:hidden">
@@ -131,7 +99,7 @@
           </li>
 
           <li
-            class="flex flex-col items-center justify-center rounded-2xl border border-solid border-gray-100 p-4 shadow-xl hover:bg-slate-100 dark:bg-white"
+            class="flex flex-col items-center justify-center rounded-2xl border border-solid border-gray-100 p-4 shadow-xl hover:bg-slate-100 dark:border-slate-300 dark:shadow-none dark:hover:bg-slate-700"
           >
             <img
               class="mb-6 w-1/2"
@@ -139,7 +107,7 @@
               alt="Rocket ride"
             />
 
-            <h1 class="text-3xl text-black dark:text-slate-900 sm:text-2xl">
+            <h1 class="text-3xl text-black dark:text-slate-300 sm:text-2xl">
               Rocket Ride
             </h1>
             <p class="text-1xl my-1 block text-slate-400 sm:hidden">
@@ -153,12 +121,95 @@
       <hr class="m-auto w-1/2 bg-black dark:bg-white" />
 
       <!-- Testimonial Section -->
-      <section id="testimonials" class="my-12 grid place-content-center p-6">
+      <section
+        id="testimonials"
+        class="my-12 grid scroll-mt-20 place-content-center p-6"
+      >
         <h1
           class="mb-6 text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl"
         >
           Testimonials
         </h1>
+        <figure class="my-12">
+          <blockquote
+            class="relative rounded-3xl bg-teal-500 py-12 pl-14 pr-8 dark:bg-black"
+          >
+            <p
+              class="mt-2 text-left text-2xl text-white before:absolute before:left-0 before:top-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-white before:opacity-25 before:content-['\201C'] after:absolute after:bottom-0 after:right-2 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-white after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl"
+            >
+              Acme has always been there for me. Their explorer rocket arrived
+              in a wooden crate as expected. Life-long customer! A++ shopping
+              experience.
+            </p>
+          </blockquote>
+          <figcaption
+            class="mt-2 text-right text-xl italic text-slate-500 dark:text-slate-400 sm:text-2xl"
+          >
+            &#8212; Wile E. Coyoyte, Genius
+          </figcaption>
+        </figure>
+
+        <figure class="my-12">
+          <blockquote
+            class="relative rounded-3xl bg-teal-500 py-12 pl-14 pr-8 dark:bg-black"
+          >
+            <p
+              class="mt-2 text-left text-2xl text-white before:absolute before:left-0 before:top-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-white before:opacity-25 before:content-['\201C'] after:absolute after:bottom-0 after:right-2 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-white after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl"
+            >
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Reprehenderit est voluptate voluptas, temporibus quo officia
+              assumenda animi iusto quos error nesciunt consectetur maxime
+              perspiciatis et repudiandae aspernatur quae quasi vitae eveniet
+              deleniti, repellat officiis dolor excepturi aut. Delectus iusto
+              numquam labore porro quaerat ab aliquid, et natus officia quisquam
+              ipsum nemo tempora molestias culpa at eius quae dolorum? Tempore,
+              odit reiciendis amet cumque cum sequi ratione recusandae
+              praesentium repellat ut fugiat ad dolorem, ipsum, tempora impedit
+              beatae et aliquam mollitia commodi adipisci veniam minus enim? Ea
+              et accusamus, magnam, atque quasi quia, quod modi odit debitis
+              quisquam explicabo quos repudiandae?
+            </p>
+          </blockquote>
+          <figcaption
+            class="mt-2 text-right text-xl italic text-slate-500 dark:text-slate-400 sm:text-2xl"
+          >
+            &#8212; Wile E. Coyoyte, Genius
+          </figcaption>
+        </figure>
+
+        <figure class="my-12">
+          <blockquote
+            class="relative rounded-3xl bg-teal-500 py-12 pl-14 pr-8 dark:bg-black"
+          >
+            <p
+              class="mt-2 text-left text-2xl text-white before:absolute before:left-0 before:top-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-white before:opacity-25 before:content-['\201C'] after:absolute after:bottom-0 after:right-2 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-white after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl"
+            >
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non
+              corrupti ullam asperiores, iure rerum ipsum et vitae recusandae
+              nemo voluptatem deserunt soluta, consequatur beatae, temporibus ut
+              similique minus earum accusantium culpa aut impedit ipsam quo
+              iusto? Tenetur exercitationem nesciunt temporibus facilis in
+              placeat maxime, perferendis iste ab ducimus veritatis nemo quasi
+              debitis similique porro nisi, nihil, magnam ea explicabo error
+              commodi nulla est. Consequatur exercitationem ipsum perferendis
+              consequuntur quisquam tempora obcaecati similique architecto
+              commodi autem, et doloremque eveniet nam itaque perspiciatis
+              aliquid illum vitae id ut iusto quas. Aspernatur odio libero
+              architecto assumenda minus, aliquid et mollitia quo corrupti,
+              itaque quibusdam a tempora harum tenetur labore perspiciatis
+              dolor? Soluta, omnis ullam! Dolores odit eligendi distinctio nulla
+              fugit laborum ex culpa incidunt pariatur sint suscipit
+              accusantium, quis deleniti nam eum nihil dolor ut aut numquam et
+              atque animi velit voluptatum. Asperiores, corrupti praesentium in
+              dolor facere deleniti obcaecati nisi saepe laboriosam.
+            </p>
+          </blockquote>
+          <figcaption
+            class="mt-2 text-right text-xl italic text-slate-500 dark:text-slate-400 sm:text-2xl"
+          >
+            &#8212; Wile E. Coyoyte, Genius
+          </figcaption>
+        </figure>
       </section>
 
       <hr class="m-auto w-1/2 bg-black dark:bg-white" />
