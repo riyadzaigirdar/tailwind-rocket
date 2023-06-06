@@ -25,7 +25,7 @@
           <nav class="hidden space-x-8 text-xl sm:block" aria-label="main">
             <a href="#rockets" class="hover:opacity-90">Our Rockets</a>
             <a href="#testimonials" class="hover:opacity-90">Testimonials</a>
-            <a href="#contact-use" class="hover:opacity-90">Contact us</a>
+            <a href="#contact-us" class="hover:opacity-90">Contact us</a>
           </nav>
         </div>
       </section>
@@ -121,12 +121,9 @@
       <hr class="m-auto w-1/2 bg-black dark:bg-white" />
 
       <!-- Testimonial Section -->
-      <section
-        id="testimonials"
-        class="my-12 grid scroll-mt-20 place-content-center p-6"
-      >
+      <section id="testimonials" class="my-12 scroll-mt-20 p-6">
         <h1
-          class="mb-6 text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl"
+          class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl"
         >
           Testimonials
         </h1>
@@ -215,15 +212,51 @@
       <hr class="m-auto w-1/2 bg-black dark:bg-white" />
 
       <!-- Contact Us -->
-      <section id="contact-us" class="my-12 grid place-content-center p-6">
+      <section id="contact-us" class="my-12 p-6">
         <h1
-          class="mb-6 text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl"
+          class="mb-10 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl"
         >
           Contact us
         </h1>
-      </section>
 
-      <hr class="m-auto w-1/2 bg-black dark:bg-white" />
+        <form action="" class="flex flex-col" id="contact-us-form">
+          <label for="subject" class="mb-2 text-3xl">Subject:</label>
+          <input
+            required
+            name="subject"
+            type="text"
+            id="subject"
+            class="mb-6 rounded-lg p-3 text-3xl text-black"
+          />
+
+          <label for="message" class="mb-2 text-3xl">Message:</label>
+          <textarea
+            required
+            name="subject"
+            id=""
+            cols="30"
+            rows="5"
+            class="mb-6 overflow-hidden rounded-lg p-4 text-3xl text-black"
+          ></textarea>
+        </form>
+
+        <button
+          form="contact-us-form"
+          type="submit"
+          class="w-48 rounded-lg bg-teal-700 p-3 text-3xl hover:bg-teal-600"
+        >
+          Submit
+        </button>
+      </section>
     </main>
+
+    <!-- Footer section -->
+    <footer class="h-44 w-full bg-teal-700 text-xl">
+      <nav class="flex flex-col justify-between">
+        <a href="#rockets" class="hover:opacity-90">Our Rockets</a>
+        <a href="#testimonials" class="hover:opacity-90">Testimonials</a>
+        <a href="#contact-us" class="hover:opacity-90">Contact us</a>
+      </nav>
+    </footer>
   </body>
 </html>
